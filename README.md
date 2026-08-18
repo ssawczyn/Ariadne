@@ -17,12 +17,16 @@ This is a stopgap, not a substitute for Obsidian fixing these issues at the sour
 
 ## Status
 
-Early. The catalog is seeded from initial research; the first plugin (an ARIA retrofit for the wikilink suggestion popup) hasn't been built yet.
+Early. The catalog is seeded from initial research; the first plugin has a working build scaffold but the actual accessibility fix isn't implemented yet.
 
 ## What's here
 
 - [`docs/CATALOG.md`](docs/CATALOG.md) — the living list of known accessibility issues, which layer each one lives in, and its status.
-- Individual plugins will each get their own repo, per Obsidian's community plugin conventions (a plugin needs `manifest.json`, `main.js`, and `versions.json` at its repo root to be installable). This repo is the hub — links to each plugin repo will land here as they exist.
+- Individual plugins each get their own repo, per Obsidian's community plugin conventions (a plugin needs `manifest.json`, `main.js`, and `versions.json` at its repo root to be installable). This repo is the hub.
+
+## Plugins
+
+- [ariadne-autocomplete](https://github.com/ssawczyn/ariadne-autocomplete) — screen reader and keyboard accessibility for Obsidian's suggestion popups, starting with the `[[` wikilink autocomplete. ([catalog issue #1](docs/CATALOG.md))
 
 ## Related work
 
